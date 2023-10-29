@@ -5,5 +5,5 @@
 #     revision: 0.8.2
 
 packages:
-  - package: dbt/dbt_utils
+  - package: /dbt/dbt_utils
     version: 1.1.1
