@@ -24,7 +24,7 @@
 -- depends_on: {{ ref('covid_ab3') }}
 select
     {{ adapter.quote('date') }},
-    new_recovered,
+    new_recovered as zizo,
     new_tested,
     total_deceased,
     new_deceased,
